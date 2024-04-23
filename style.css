@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+    font-weight: bolder;
+}
+a{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}

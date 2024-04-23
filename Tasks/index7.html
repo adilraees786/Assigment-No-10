@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+</head>
+<body>
+    
+
+    <script>
+        var A=['cake','apple pie','cookies','chips','patties' ]
+
+var userinput= prompt("Welcome to Smart Bakery , what do you want?")
+
+for(let i=0; i < A.length; i++){
+    if(userinput == A[i]){
+        document.write(`${A[i]} is available at  index ${i} in our Bakery`)
+        break
+    }
+    else{
+        document.write(` we are sorry sir ${userinput} is not available in our Bakery`)
+break
+    }
+}
+
+    </script>
+</body>
+</html>
